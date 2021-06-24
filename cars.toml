@@ -1,0 +1,16 @@
+[crawler]
+BASE_URL = "https://www.craigslist.org/about/sites"
+MAX_CRAWL_SLEEP_TIME = 3
+
+[features]
+types = [
+    "Region",
+    "Price",
+    "Year",
+    "Model",
+    "condition",
+    "Odometer",
+    "Fuel type",
+    "Transmission",
+    "Paint color"
+]
